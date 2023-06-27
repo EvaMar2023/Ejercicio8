@@ -1,13 +1,13 @@
 /* revisado evan*/
 function ejercicio5a(){
-    const palabras = ["perro", "gato", "lobo", "canario", "pollo"];
+    const palabras = ["um", "dois", "treis", "quatro", "cinco"];
     for(var i=0; i<5 ;i++){
         alert("La variable número "+ i + " contiene el valor "+palabras[i]);
     }
 }
 
 function ejercicio5b(){
-    const palabras = ["perro", "gato", "lobo", "canario", "pollo"];
+    const palabras = ["um", "dois", "treis", "quatro", "cinco"];
     for(const i of palabras){
         alert(i[0].toLocaleUpperCase()+i.substring(1));
     }
